@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-import pc from "./assets/white_pc.png";
 
 function App() {
   return (
