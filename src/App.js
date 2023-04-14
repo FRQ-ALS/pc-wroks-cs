@@ -1,5 +1,6 @@
-import logo from "./logo.svg";
+import logo from "./assets/logo-light.png";
 import "./App.css";
+
 
 function App() {
   return (
@@ -17,9 +18,9 @@ function App() {
       <div className="content">
         <img
           className="logo-image"
-          src="https://cdn.discordapp.com/attachments/1093323921933205614/1096497361238360125/logo-dark.png"
+          src={logo}
         />
-        <h2 style={{marginTop:'10px'}}>COMING SOON</h2>
+        <span style={{marginTop:'10px'}}>COMING SOON</span>
       </div>
     </div>
   );
