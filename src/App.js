@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import pc from "./assets/white_pc.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <div className="overlay"></div>
+      <img
+        className="bg-image"
+        src={
+          "https://cdn.discordapp.com/attachments/1093323921933205614/1095723933594026117/IMG_6203.jpg"
+        }
+        autoPlay
+        loop
+        muted
+      />
+      <div className="content">
+        <img
+          className="logo-image"
+          src="https://cdn.discordapp.com/attachments/1094622788385521686/1094755910678741023/logo-light.png"
+        />
+        <h2 style={{marginTop:'10px'}}>COMING SOON</h2>
+      </div>
     </div>
   );
 }
