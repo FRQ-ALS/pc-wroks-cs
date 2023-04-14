@@ -17,7 +17,7 @@ function App() {
       <div className="content">
         <img
           className="logo-image"
-          src="https://cdn.discordapp.com/attachments/1094622788385521686/1094755910678741023/logo-light.png"
+          src="https://cdn.discordapp.com/attachments/1093323921933205614/1096497361238360125/logo-dark.png"
         />
         <h2 style={{marginTop:'10px'}}>COMING SOON</h2>
       </div>
